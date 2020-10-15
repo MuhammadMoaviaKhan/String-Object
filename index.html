@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stri & Obj </title>
+    <style>
+    * {
+        margin: 5px;padding: 5px;font-size: 25px;
+    }
+    </style>
+</head>
+<body>
+    <script>
+        // Topic 16 String Object
+        var a = "Moavia";
+        var b = new String("Moavia");
+
+        document.write(a === b);
+        document.write("<br>");
+        document.write(typeof(b));
+        document.write("<br>");
+
+        document.write("<br>");
+
+        // Topic 17 String Methods
+        var a = "Welcome to my git account i hope this is help full to you ";
+        var b = "Plz follow on github.";
+        document.write(a);
+        document.write("<br>");
+        document.write(a.length);
+        document.write("<br>");
+        document.write(a.charAt(5));
+        document.write("<br>");
+        document.write(a.indexOf('to')); // return index num at the start
+        document.write("<br>");
+        document.write(a.lastIndexOf('to'));
+        document.write("<br>");
+        document.write(a.replace('help full','helpfull'));
+        document.write("<br>");
+        document.write(a.toUpperCase());
+        document.write("<br>");
+        document.write(a.toLowerCase());
+        document.write("<br>");
+        document.write(a.concat(b));
+
+        document.write("<br>");
+
+
+    </script>
+</body>
+</html>
